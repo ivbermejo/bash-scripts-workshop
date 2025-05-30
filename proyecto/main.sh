@@ -1,5 +1,5 @@
 #!/bin/bash
-# monitor.sh - Script principal para lanzar otras tareas de monitorización
+# main.sh - Script principal para lanzar otras tareas de monitorización
 
 trap 'echo "\n[!] Interrumpido por el usuario."; exit 1' INT
 
